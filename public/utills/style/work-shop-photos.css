@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&display=swap');
+
+.sans {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.head {
+  align-items: center;
+  margin: auto;
+}
+/*
+*
+* ==========================================
+*this page css
+* ==========================================
+*
+*/
+body {
+  background: #f4f4f4;
+}
+
+.banner {
+  background: #a770ef;
+  background: -webkit-linear-gradient(to right, #a770ef, #cf8bf3, #fdb99b);
+  background: linear-gradient(to right, #a770ef, #cf8bf3, #fdb99b);
+}body {
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+}
+
+/* .container{
+	width:90%
+	margin:10px auto;
+} */
+.portfolio-menu {
+  text-align: center;
+}
+
+.portfolio-menu ul li {
+  display: inline-block;
+  margin: 0;
+  list-style: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  -webkit-transition: all 05s ease;
+  -moz-transition: all 05s ease;
+  -ms-transition: all 05s ease;
+  -o-transition: all 05s ease;
+  transition: all .5s ease;
+}
+
+.portfolio-item {
+  width:100%;
+}
+
+.portfolio-item .item {
+  width:303px;
+  float: left;
+  margin-bottom: 10px;
+}
+
+.banner {
+  background: #a770ef;
+  background: -webkit-linear-gradient(to right, #a770ef, #cf8bf3, #fdb99b);
+  background: linear-gradient(to right, #a770ef, #cf8bf3, #fdb99b);
+}
