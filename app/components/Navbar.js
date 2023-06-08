@@ -1,8 +1,9 @@
 'use client'
 
 import React, { useState } from "react";
-import { GiHamburgerMenu,GrFormClose} from "react-icons/gi";
-import './navbar.css'
+import { GiHamburgerMenu} from "react-icons/gi";
+import Link from "next/link";
+import './nnn.css'
 
 const Navbar = () => {
     const [showMediaIcons, setShowMediaIcons] = useState(false);
@@ -24,40 +25,33 @@ const Navbar = () => {
 <div className="menu">
       <ul
         className={
-            showMediaIcons ? "md:flex md:items-center z-[-1] md:z-auto md:static absolute w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500 menu_links   top-[80px] opacity-100" : "md:flex md:items-center z-[-1] md:z-auto md:static absolute w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500 menu_links"
+            showMediaIcons ? "md:flex md:items-center z-[-1] md:z-auto w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 ease-in-out duration-500 menu_links top-[80px] opacity-100" : "md:flex md:items-center z-[-1] md:z-auto md:static absolute w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 menu_links"
           }>
         <li className="mx-4 my-6 md:my-0 link">
-          <a href="#" className=" hover:text-cyan-500 duration-500">HOME</a>
+          <Link href="/" className=" hover:text-cyan-500 duration-500">HOME</Link>
         </li>
         <li className="mx-4 my-6 md:my-0 link">
-          <a href="#" className=" hover:text-cyan-500 duration-500"
-            >Lecture Notes</a
-          >
+          <Link href="/Activites" className=" hover:text-cyan-500 duration-500">Activites</Link>
         </li>
         <li className="mx-4 my-6 md:my-0 link">
-          <a href="#" className=" hover:text-cyan-500 duration-500"
-            >Activities</a
-          >
+          <Link href="/LectureNotes" className=" hover:text-cyan-500 duration-500"
+            >Lecture Notes</Link>
         </li>
         <li className="mx-4 my-6 md:my-0 link">
-          <a href="#" className=" hover:text-cyan-500 duration-500"
-            >Old Question Papers</a
-          >
+          <Link href="/OldQuestionPapers" className=" hover:text-cyan-500 duration-500"
+            >Old Question Papers</Link>
         </li>
         <li className="mx-4 my-6 md:my-0 link">
-          <a href="#" className=" hover:text-cyan-500 duration-500"
-            >Old Question Papers</a
-          >
+          <Link href="/PhysicsInIndia" className=" hover:text-cyan-500 duration-500"
+            >Physics In India</Link>
         </li>
         <li className="mx-4 my-6 md:my-0 link">
-          <a href="#" className=" hover:text-cyan-500 duration-500"
-            >Physics in India</a
-          >
+          <Link href="/Practicals" className=" hover:text-cyan-500 duration-500"
+            >Practicals</Link>
         </li>
         <li className="mx-4 my-6 md:my-0 link">
-          <a href="#" className=" hover:text-cyan-500 duration-500"
-            >Practicals</a
-          >
+          <Link href="/VideoLessons" className=" hover:text-cyan-500 duration-500"
+            >Video Lessons</Link>
         </li>
       </ul>
     </div>
