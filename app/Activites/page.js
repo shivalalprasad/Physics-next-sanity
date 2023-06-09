@@ -1,7 +1,12 @@
 import React from 'react'
 
+export const metadata = {
+  title: "Activites",
+  description: "Experience an engaging world of physics with our college's subject activities. Dive into hands-on experiments, interactive simulations, and thought-provoking discussions. Enhance your understanding of key concepts and develop critical thinking skills. Join us in exploring the wonders of physics through exciting activities that inspire and educate.",
+};
 const Activites = () => {
   return (
+    <>
     <section className="text-gray-600 body-font overflow-hidden">
     <div className="container px-5 py-24 mx-auto">
       <div className="-my-8 divide-y-2 divide-gray-100">
@@ -186,7 +191,7 @@ const Activites = () => {
         </div>
       </div>
     </div>
-  </section>
+  </section></>
   )
 }
 

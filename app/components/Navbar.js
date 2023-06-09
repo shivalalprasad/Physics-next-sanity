@@ -23,7 +23,7 @@ const Navbar = () => {
         </span>
       </div>
 <div className="menu">
-      <ul
+      <ul  onClick={() => setShowMediaIcons(!showMediaIcons)}
         className={
             showMediaIcons ? "md:flex md:items-center z-[-1] md:z-auto w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 ease-in-out duration-500 menu_links top-[80px] opacity-100" : "md:flex md:items-center z-[-1] md:z-auto md:static absolute w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 menu_links"
           }>

@@ -1,5 +1,10 @@
 import React from 'react'
 
+export const metadata = {
+  title: "Lecture Notes",
+  description: "Access comprehensive lecture notes for college physics at GDC KMR. Our meticulously curated resources cover a wide range of topics, providing valuable insights and enhancing your understanding of classical mechanics, electromagnetism, quantum physics, and more. Dive into the world of physics with our detailed lecture notes.",
+};
+
 const LectureNotes = () => {
   return (
     <div className="container">

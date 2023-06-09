@@ -1,5 +1,11 @@
 
 
+export const metadata = {
+  title: "Physics In India",
+  description: "Experience the wonders of physics in India. Dive into the rich heritage, breakthrough research, and renowned physicists of the country. Explore the diverse applications, educational opportunities, and fascinating discoveries that make physics in India an inspiring and vibrant field. Join us on this captivating journey today!",
+};
+
+
 const PhysicsInIndia = () => {
   return (
     <div className="main">

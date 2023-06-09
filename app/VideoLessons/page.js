@@ -1,5 +1,11 @@
 
-function page() {
+
+export const metadata = {
+  title: "Video Lessons",
+  description: "Explore our comprehensive collection of video lessons for college physics. From classical mechanics to quantum physics, our engaging videos provide clear explanations, demonstrations, and problem-solving techniques. Enhance your understanding and excel in your studies with our dynamic and accessible video lessons. Start learning today!",
+};
+
+function VideoLessons() {
   return (
     <section className="text-gray-600 body-font">
     <div className="container px-5 py-24 mx-auto">
@@ -190,4 +196,4 @@ function page() {
   )
 }
 
-export default page
+export default VideoLessons

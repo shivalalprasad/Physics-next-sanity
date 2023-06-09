@@ -1,4 +1,10 @@
 
+
+export const metadata = {
+  title: "Practicals",
+  description: "Experience hands-on learning with our college physics practicals. Engage in exciting experiments, develop practical skills, and deepen your understanding of theoretical concepts. Our comprehensive guides and instructions ensure a rewarding and immersive practical experience. Unleash your scientific curiosity and explore the practical side of physics today.",
+};
+
 const Practicals = () => {
   return (
     <div className="main">

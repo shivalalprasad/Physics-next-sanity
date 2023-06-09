@@ -1,5 +1,11 @@
 import React from 'react'
 
+
+export const metadata = {
+  title: "Old Question Papers",
+  description: "Access a treasure trove of old question papers for college physics. Prepare effectively for exams by familiarizing yourself with the format, identifying key concepts, and honing your problem-solving skills. Unlock success with our comprehensive collection of past papers. Start your journey towards academic excellence now!",
+};
+
 const OldQuestionPapers = () => {
   return (
     <div className="container">
