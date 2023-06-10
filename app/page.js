@@ -1,5 +1,8 @@
 // import Image from "next/image";
-
+export const metadata = {
+  name: "google-site-verification",
+  content:"emhlqdbv3W9xP9-4GOGvH9iAwu6BzeYsy6tenMFsgqE",
+};
 
 
 export default function Home() {
