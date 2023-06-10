@@ -10,7 +10,7 @@ function VideoLessons() {
     <section className="text-gray-600 body-font">
     <div className="container px-5 py-24 mx-auto">
       <div className="flex flex-wrap -m-4">
-        <div className="p-4 lg:w-1/2">
+        <div className="p-4 mx-auto lg:w-1/2">
           <div
             className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
             <a href="https://youtu.be/3QAVx7zC6ts"><img alt="team"
@@ -25,7 +25,7 @@ function VideoLessons() {
             </div>
           </div>
         </div>
-        <div className="p-4 lg:w-1/2">
+        <div className="p-4 mx-auto lg:w-1/2">
           <div
             className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
             <a href="https://youtu.be/T4LVqSOyZ0w"><img alt="team"
@@ -38,7 +38,7 @@ function VideoLessons() {
             </div>
           </div>
         </div>
-        <div className="p-4 lg:w-1/2">
+        <div className="p-4 mx-auto lg:w-1/2">
           <div
             className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
             <a href="https://youtu.be/0I8EdMbiJcs"><img alt="team"
@@ -53,7 +53,7 @@ function VideoLessons() {
             </div>
           </div>
         </div>
-        <div className="p-4 lg:w-1/2">
+        <div className="p-4 mx-auto lg:w-1/2">
           <div
             className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
             <a href="https://youtu.be/xkCmk7gdG9o"><img alt="team"
@@ -68,7 +68,7 @@ function VideoLessons() {
             </div>
           </div>
         </div>
-        <div className="p-4 lg:w-1/2">
+        <div className="p-4 mx-auto lg:w-1/2">
           <div
             className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
             <a href="https://youtu.be/DBtcXMupiEM"><img alt="team"
@@ -83,7 +83,7 @@ function VideoLessons() {
             </div>
           </div>
         </div>
-        <div className="p-4 lg:w-1/2">
+        <div className="p-4 mx-auto lg:w-1/2">
           <div
             className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
             <a href="https://youtu.be/0LnKsy90lwg"><img alt="team"
@@ -96,7 +96,7 @@ function VideoLessons() {
             </div>
           </div>
         </div>
-        <div className="p-4 lg:w-1/2">
+        <div className="p-4 mx-auto lg:w-1/2">
           <div
             className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
             <a href="https://youtu.be/rA3pOintFRo"><img alt="team"
@@ -109,7 +109,7 @@ function VideoLessons() {
             </div>
           </div>
         </div>
-        <div className="p-4 lg:w-1/2">
+        <div className="p-4 mx-auto lg:w-1/2">
           <div
             className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
             <a href="https://youtu.be/a0cvfgbVLss"><img alt="team"
@@ -122,7 +122,7 @@ function VideoLessons() {
             </div>
           </div>
         </div>
-        <div className="p-4 lg:w-1/2">
+        <div className="p-4 mx-auto lg:w-1/2">
           <div
             className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
             <a href="https://youtu.be/zZNkcKxmBoI"><img alt="team"
@@ -135,7 +135,7 @@ function VideoLessons() {
             </div>
           </div>
         </div>
-        <div className="p-4 lg:w-1/2">
+        <div className="p-4 mx-auto lg:w-1/2">
           <div
             className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
             <a href="https://youtu.be/R_DoaknOsOU"><img alt="team"
@@ -149,7 +149,7 @@ function VideoLessons() {
             </div>
           </div>
         </div>
-        <div className="p-4 lg:w-1/2">
+        <div className="p-4 mx-auto lg:w-1/2">
           <div
             className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
             <a href="https://youtu.be/pKvTHQS88L4"><img alt="team"
@@ -162,7 +162,7 @@ function VideoLessons() {
             </div>
           </div>
         </div>
-        <div className="p-4 lg:w-1/2">
+        <div className="p-4 mx-auto lg:w-1/2">
           <div
             className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
             <a href="https://youtu.be/04THKYsONKA"><img alt="team"
@@ -176,7 +176,7 @@ function VideoLessons() {
             </div>
           </div>
         </div>
-        <div className="p-4 lg:w-1/2">
+        <div className="p-4 mx-auto lg:w-1/2">
           <div
             className="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
             <a href="https://youtu.be/7mHhtskAXOg"><img alt="team"
