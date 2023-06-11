@@ -3,7 +3,7 @@ import { Inter } from "next/font/google";
 import Header from "./components/Header";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import Head from 'next/Head'
+import Head from 'next/head'
 import { createClient } from "next-sanity";
 
 const inter = Inter({ subsets: ["latin"] });
