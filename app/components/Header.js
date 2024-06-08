@@ -7,7 +7,7 @@ const Header = () => {
     <div className="container mx-auto flex flex-wrap flex-col md:flex-row items-center">
       <a href="/"><span
           className="flex title-font font-medium items-center text-gray-900 md:mb-0">
-          <img src="public/images/gdc-logo.png"
+          <img src="/images/gdc-logo.png"
            alt="Logo" width={30} height={30}
             className="d-inline-block align-text-top"/>
           <span className="ml-3 text-xl">GDC KMR</span>

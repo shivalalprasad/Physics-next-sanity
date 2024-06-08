@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
         <a href="/"
           className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-          <img src="public/images/gdc-logo.png" alt="Logo" width={30}
+          <img src="/images/gdc-logo.png" alt="Logo" width={30}
           height={30} className="d-inline-block align-text-top"/>
           <span className="ml-3 text-xl">GDC KMR</span>
         </a>
@@ -49,7 +49,7 @@ const Footer = () => {
       <a href="/"
         className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
 
-        <img src="public/images/gdc-logo.png" alt="Logo" width={30}
+        <img src="/images/gdc-logo.png" alt="Logo" width={30}
           height={30} className="d-inline-block align-text-top"/>
         <span className="ml-3 text-xl">GDC KMR</span>
       </a>

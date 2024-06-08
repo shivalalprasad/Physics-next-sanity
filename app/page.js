@@ -32,7 +32,8 @@ export default function Home() {
               <div className="md:p-2 p-1 overflow-hidden">
                 <img alt="gallery"
                 className="w-full object-cover h-full object-center block transform h-64 bg-blue-400 w-80 transition duration-500 hover:scale-125 hover:bg-blue-600 flex justify-center items-center"
-                src="https://live.staticflickr.com/65535/52876753517_5cd6f38a75_b.jpg"/>
+                // src="https://live.staticflickr.com/65535/52876753517_5cd6f38a75_b.jpg"
+                src="/images/home1.jpg"/>
               </div>
               <div className="md:p-2 p-1 w-full overflow-hidden">
                 {/* <Image
@@ -44,7 +45,8 @@ export default function Home() {
                 /> */}
                 <img alt="gallery"
                 className="w-full h-full object-cover object-center block transform h-64 bg-blue-400 w-80 transition duration-500 hover:scale-125 hover:bg-blue-600 flex justify-center items-center"
-                src="https://live.staticflickr.com/65535/52877780368_c3526459d5_b.jpg"/>
+                // src="https://live.staticflickr.com/65535/52877780368_c3526459d5_b.jpg"
+                src="/images/home2.jpg"/>
               </div>
             </div>
             <div className="flex flex-wrap w-1/2 overflow-hidden">
@@ -58,7 +60,8 @@ export default function Home() {
                 /> */}
                 <img alt="gallery"
                 className="w-full h-full object-cover object-center block transform h-64 bg-blue-400 w-80 transition duration-500 hover:scale-125 hover:bg-blue-600 flex justify-center items-center"
-                src="https://live.staticflickr.com/65535/52876753287_9a187593ee_b.jpg"/>
+                // src="https://live.staticflickr.com/65535/52876753287_9a187593ee_b.jpg"// 
+                src="/images/home3.jpg"/>
               </div>
               <div className="md:p-2 p-1 overflow-hidden">
                 {/* <Image
@@ -70,7 +73,8 @@ export default function Home() {
                 /> */}
                 <img alt="gallery"
                 className="w-full object-cover h-full object-center block transform h-64 bg-blue-400 w-80 transition duration-500 hover:scale-125 hover:bg-blue-600 flex justify-center items-center"
-                src="https://live.staticflickr.com/65535/52877335421_31e8480c3e_b.jpg"/>
+                // src="https://live.staticflickr.com/65535/52877335421_31e8480c3e_b.jpg"
+                src="/images/home4.jpg"/>
               </div>
             </div>
           </div>
