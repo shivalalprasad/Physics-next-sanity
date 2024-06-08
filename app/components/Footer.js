@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
         <a href="https://physics-demo-gdckmr.web.app/"
           className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-          <img src="https://lecture-notes-physics.gdckmr.repl.co/utills/images/gdclogo.png" alt="Logo" width={30}
+          <img src="https://4425508f-27d9-458e-aba2-9c25f90bb643-00-2bree4xj3m2oc.riker.replit.dev/utills/images/gdclogo.png" alt="Logo" width={30}
           height={30} className="d-inline-block align-text-top"/>
           <span className="ml-3 text-xl">GDC KMR</span>
         </a>
