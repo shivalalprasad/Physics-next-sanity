@@ -15,6 +15,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <Head>
+      <link rel="icon" href="/images/gdc-logo.png"/>
       <meta name="google-site-verification" content="emhlqdbv3W9xP9-4GOGvH9iAwu6BzeYsy6tenMFsgqE" />
       </Head>
       <body className={inter.className}>
