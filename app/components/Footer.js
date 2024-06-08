@@ -6,9 +6,9 @@ const Footer = () => {
     <div
       className="container py-4 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
       <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
-        <a href="https://physics-demo-gdckmr.web.app/"
+        <a href="/"
           className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
-          <img src="https://4425508f-27d9-458e-aba2-9c25f90bb643-00-2bree4xj3m2oc.riker.replit.dev/utills/images/gdclogo.png" alt="Logo" width={30}
+          <img src="public/images/gdc-logo.png" alt="Logo" width={30}
           height={30} className="d-inline-block align-text-top"/>
           <span className="ml-3 text-xl">GDC KMR</span>
         </a>
@@ -46,10 +46,10 @@ const Footer = () => {
       </div>
     </div>
     <div className="container px-5 py-4 mx-auto flex items-center sm:flex-row flex-col">
-      <a href="https://physics-demo-gdckmr.web.app/"
+      <a href="/"
         className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
 
-        <img src="https://4425508f-27d9-458e-aba2-9c25f90bb643-00-2bree4xj3m2oc.riker.replit.dev/utills/images/gdclogo.png" alt="Logo" width={30}
+        <img src="public/images/gdc-logo.png" alt="Logo" width={30}
           height={30} className="d-inline-block align-text-top"/>
         <span className="ml-3 text-xl">GDC KMR</span>
       </a>

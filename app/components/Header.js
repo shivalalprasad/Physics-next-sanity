@@ -5,9 +5,9 @@ const Header = () => {
     <>
     <header className=" body-font ">
     <div className="container mx-auto flex flex-wrap flex-col md:flex-row items-center">
-      <a href="https://physics-demo-gdckmr.web.app/"><span
+      <a href="/"><span
           className="flex title-font font-medium items-center text-gray-900 md:mb-0">
-          <img src="https://4425508f-27d9-458e-aba2-9c25f90bb643-00-2bree4xj3m2oc.riker.replit.dev/utills/images/gdclogo.png"
+          <img src="public/images/gdc-logo.png"
            alt="Logo" width={30} height={30}
             className="d-inline-block align-text-top"/>
           <span className="ml-3 text-xl">GDC KMR</span>
